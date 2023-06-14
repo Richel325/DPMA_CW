@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 45,
+    "height" : 96
+  }, {
+    "width" : 89,
+    "height" : 191
+  }, {
+    "width" : 177,
+    "height" : 381
+  }, {
+    "width" : 353,
+    "height" : 762
+  }, {
+    "width" : 705,
+    "height" : 1523
+  }, {
+    "width" : 1410,
+    "height" : 3046
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1410,
+  "@id" : "https://Richel325.github.io/DPMA_CW/images/RS47123_S-856-3-4_001",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3046
+}
