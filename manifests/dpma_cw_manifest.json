@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Richel325.github.io/DPMA_CW/manifests/dpma_cw_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://e4469030-848e-4772-9885-42d376d2e015",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e20b7c5e-afd8-4956-bd36-dbeb4a1a5093",
+      "@type" : "sc:Canvas",
+      "label" : "WINGLESS APKALLU WITH PAIL: ASSYRIAN RELIEF FROM THE NORTHWEST PALACE OF ASHURNASIRPAL II AT NIMRUD, ROOM H",
+      "height" : 3046,
+      "width" : 1410,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://88cf8ba1-2ab0-4b1f-90d1-777de5ce7a1b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://richel325.github.io/DPMA_CW/images/RS47123_S-856-3-4_001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://richel325.github.io/DPMA_CW/images/RS47123_S-856-3-4_001",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3046,
+          "width" : 1410
+        },
+        "on" : "http://e20b7c5e-afd8-4956-bd36-dbeb4a1a5093"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://eeaccf11-39fe-4931-baf1-5fc386eee675",
+      "@type" : "sc:Canvas",
+      "label" : "When Photographers are Blinded, Eagles Wings are Clipped by Daniel Heyman",
+      "height" : 1112,
+      "width" : 1600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://011d7d3e-399a-4217-bd5b-ff3fbf97a849",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://richel325.github.io/DPMA_CW/images/dheyman_201411/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://richel325.github.io/DPMA_CW/images/dheyman_201411",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1112,
+          "width" : 1600
+        },
+        "on" : "http://eeaccf11-39fe-4931-baf1-5fc386eee675"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
